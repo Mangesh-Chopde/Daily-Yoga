@@ -1,0 +1,94 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color:#1ee8af;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .header-content {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    /*border: 1px solid rgb(232, 6, 6); /* Set border width and color */
+ 
+  }
+  
+  .imageWithDescription {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgb(22, 173, 105); /* Set border width and color */
+ 
+  }
+  
+  .image {
+    flex: 1;
+   /* border: 1px solid rgb(9, 221, 150); /* Set border width and color */
+      
+  }
+  
+  .image img {
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid rgb(27, 163, 131); /* Set border width and color */
+ 
+  }
+  
+  .description {
+    flex: 1;
+    /*border: 1px solid rgb(34, 175, 163); /* Set border width and color */
+
+  }
+  
+  #backButton {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    background-color:#1ee8af;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  

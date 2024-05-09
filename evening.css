@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+ /* HEADER START HERE*/
+header {
+  background-color:#1ee8af;
+  color: white;
+  padding: 1px;
+  display: flex;
+  justify-content: center; /* Align items at the start and end */
+  align-items: center;
+}
+
+#logo {
+  width: 200px; /* Adjust logo size as needed */
+  height: auto;
+}
+
+.header-content {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+/*header end  here*/
+
+
+/* AFTER HEADER */
+
+.allcontentcontainer {
+  width: 98%;
+   border: 15px solid rgb(172, 234, 213); /* Set border width and color */
+  border-radius: 2px; /* Optionally, add border radius for rounded corners */
+}
+
+#videoContainer {
+  width: 99%;
+  justify-content: center;
+  margin: 20px;
+  display: flex;
+  flex-direction: column; /* Arrange videos vertically */
+  align-items: flex-start; /* Align videos to the start of the container */
+  gap: 90px;
+  border: 1px solid rgb(172, 234, 213); /* Set border width and color */
+ }
+
+.videoWithDescription {
+  display: flex;
+  align-items: flex-start; /* Align items at the start of the container */
+  width: 99%; /* Ensure each container takes full width */
+  border: 1px solid rgb(172, 234, 213); /* Set border width and color */
+}
+
+.video {
+ 
+  flex: 0 0 49%; /* Video takes 70% of the container */
+  border: 1px solid rgba(241, 238, 238, 0.981); /* Set border width and color */
+}
+
+.video iframe {
+ 
+  width: 99%; /* Make sure video fills its container */;
+  border: 1px solid #0ca36c;
+  border-radius: 5px;
+}
+
+.description {
+  flex: 0 0 50%;
+  padding-left: 2px; /* Add space between video and description */
+  border: 1px solid #f2f4f3; /* Set border width and color */
+
+ /* flex: 0 0 30%; /* Description takes 30% of the container */
+  }
+
+
+  /*
+  .noBullet {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .noBullet li {
+    margin-bottom: 10px; /* Adjust as needed *
+  }
+  */
+.description p {
+  font-size: 14px;
+  color: #555;/* Allow text to wrap to the next line */
+  overflow-wrap: break-word;
+  word-wrap: break-word;/* Prevent text from extending outside the container */
+  max-width: 100%; /* Ensure text doesn't go beyond the container width */
+}
+
+#backButton {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  background-color:#1ee8af;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+#backButton {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  background-color:#1ee8af;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 20px auto;
+  cursor: pointer;
+  text-decoration: none;
+}
+

@@ -1,0 +1,168 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*header start here*/
+header {
+  background-color:#1ee8af;
+  color: white;
+  padding: 1px;
+  display: flex;
+  justify-content: center; /* Align items at the start and end */
+  align-items: center;
+}
+
+#logo {
+  width: 200px; /* Adjust logo size as needed */
+  height: auto;
+}
+
+.header-content {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+/*header end here*/
+
+
+
+/*AFTER HEADER*/
+.allcontentcontainer {
+  width: 98%;
+  display: flex;
+  justify-content: center; 
+  box-shadow: inset;
+  border: 15px solid rgb(172, 234, 213); /* Set border width and color */
+  border-radius: 2px; /* Optionally, add border radius for rounded corners */
+}
+
+/* Adjust form width */
+#diseaseForm {
+  border: 1px solid hwb(162 81% 4%);; /* Set border width and color */
+  border-radius: 1px; /* Optionally, add border radius for rounded corners */
+  width: 75%; /* Set the desired width for the form */ 
+  padding: 20px; /* Add padding to the form */
+  box-shadow: outset 0 0 10px rgba(162, 6, 6, 0.1);
+  background-color: #fff;
+}
+
+  .fhead  {
+    text-align: center;
+    background-color:#1ee8af;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 1px;
+}
+
+  #yogaList {
+  width: 95%;
+  padding: 20px;
+  color: #020101;
+  border: 1px solid rgb(172, 234, 213); /* Set border width and color */
+ 
+}
+
+
+label {
+  display: block;
+  margin-bottom: 10px; /* Add some spacing between each disease checkbox */
+  font-size: 25px; /* Increase font size for better readability */
+  color:#020101;
+  box-shadow: outset 0 0 10px rgba(162, 6, 6, 0.1);    /* background-color:#effef9;*/
+  background-color: #fff;
+  border: 1px solid whitesmoke; /* Set border width and color */
+}
+
+
+
+/* Style checkboxes */
+input[type="checkbox"] {
+  transform: scale(1.7); /* Adjust the scale factor as needed */
+  margin-right: 90px; /* Add some spacing between checkbox and text */
+  margin-left: 20px;
+}
+
+/* Style custom checkboxes */
+.custom-checkbox {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+}
+
+.custom-checkbox input[type="checkbox"] + .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee; /* Default background color for checkboxes */
+  border: 1px solid #aaa; /* Border color for checkboxes */
+}
+
+.custom-checkbox input[type="checkbox"]:checked + .checkmark {
+  background-color: #20c48d; /* Color for checkboxes when selected */
+}
+
+/* Create the checkmark/indicator */
+.checkmark {
+  display: block;
+}
+
+/* Create the checkmark shape */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white; /* Color of the checkmark */
+  border-color: #05dea1;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* Show the checkmark when the checkbox is checked */
+.custom-checkbox input[type="checkbox"]:checked + .checkmark:after {
+  display: block;
+}
+
+button {
+  background-color:#05dea1;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+  font-size: 16px; /* Increase font size for the submit button */
+}
+
+#backButton {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  background-color:#1ee8af;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px; /* Increase font size for the back button */
+}

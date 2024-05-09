@@ -1,0 +1,109 @@
+body {
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   */ font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color:#1ee8af;
+    color: white;
+    padding: 1px;
+    display: flex;
+    justify-content: center; /* Align items at the start and end */
+    align-items: center;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  #logo {
+    width: 200px; /* Adjust logo size as needed */
+    height: auto;
+  }
+  
+  .header-content {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /*header end  here*/
+
+
+/* AFTER HEADER */
+.allcontentcontainer {
+  width: 100%;
+  border: 5px solid hwb(162 81% 4%);; /* Set border width and color */
+  border-radius: 1px; /* Optionally, add border radius for rounded corners */
+  border: 1px solid whitesmoke; /* Set border width and color */
+ 
+}
+  section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  video {
+    max-width: 100%;
+  }
+  
+  h2 {
+    color: #000000; /* Dark title color */
+  }
+  
+  #classSchedule {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .classCardLink {
+    text-decoration: none;
+  }
+  
+  .classCard {
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color:hsl(163, 97%, 65%);/*hsl(163, 95%, 78%); */
+    width: 345px;
+    height: 160px;
+    border-radius: 15px;
+    color:black; /* Dark text color */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for hover effects */
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 5px #1ee8af;
+    border: 2px solid white; /* Set border width and color */
+  }
+  
+  .classCard:hover::before {
+    width: 1000%;
+    height: 1000%;
+    
+  }
+
+  .classCard:hover {
+    transform: scale(1.07); /* Hover animation - slightly scale up the card */
+    box-shadow: 0 0 20px #02fbb4;  /* Glow effect on hover */
+  }
+  
+  footer {
+    color: #fff; /* Light text color */
+    text-align: center;
+    padding: 1em 0;
+  }
+  
