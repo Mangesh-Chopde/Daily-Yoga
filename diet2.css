@@ -56,8 +56,7 @@ body {
     flex-direction: row;
     align-items: center;
     width: 100%;
-    border: 1px solid rgb(22, 173, 105); /* Set border width and color */
- 
+   
   }
   
   .image {
@@ -70,8 +69,7 @@ body {
     width: 90%;
     height: auto;
     border-radius: 8px;
-    border: 1px solid rgb(27, 163, 131); /* Set border width and color */
- 
+    
   }
   
   .description {
